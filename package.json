@@ -1,0 +1,24 @@
+{
+  "name": "aws-contacts",
+  "version": "1.0.0",
+  "description": "Contacts demo API",
+  "main": "index.js",
+  "scripts": {
+    "claudia": "claudia --region eu-west-1 --api-module lambda",
+    "test": "_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KvadratJonkoping/aws-contacts.git"
+  },
+  "author": "Daniel Persson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KvadratJonkoping/aws-contacts/issues"
+  },
+  "homepage": "https://github.com/KvadratJonkoping/aws-contacts#readme",
+  "dependencies": {
+    "claudia-api-builder": "^2.4.0",
+    "mocha": "3.2.0"
+  }
+}
